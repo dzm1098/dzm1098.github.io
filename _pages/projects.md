@@ -1,7 +1,7 @@
 ---
 layout: page
 title: research
-permalink: /projects/
+permalink: /research/
 description: Selected research and engineering projects.
 nav: true
 nav_order: 1

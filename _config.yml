@@ -152,6 +152,7 @@ collections:
     output: true
   projects:
     output: true
+    permalink: /research/:path/
   teachings:
     output: true
 

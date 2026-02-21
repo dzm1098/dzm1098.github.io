@@ -32,4 +32,4 @@ I am an M.Sc. student in Computer Science at the University of Victoria (expecte
 
 Previously, I completed my B.Sc. in Computer Science at UVic (with Distinction), and have experience as a TA for CSC361 and as an RA on efficient LLM frameworks.
 
-This website contains my CV, selected projects, and ongoing work.
+This website contains my CV, selected research, and ongoing work.

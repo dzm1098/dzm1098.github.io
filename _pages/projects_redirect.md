@@ -1,0 +1,16 @@
+---
+layout: none
+permalink: /projects/
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="0; url=/research/">
+    <link rel="canonical" href="/research/">
+    <title>Redirecting...</title>
+  </head>
+  <body>
+    <p>Redirecting to <a href="/research/">/research/</a>...</p>
+  </body>
+</html>
