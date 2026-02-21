@@ -1,15 +1,11 @@
 ---
 layout: page
-title: photography
+title: Photography
 permalink: /photography/
 description: Selected photography work.
 nav: true
 nav_order: 2
 ---
-
-This page automatically shows every image you upload to `assets/img/photography/`.
-
-Supported formats: `.jpg`, `.jpeg`, `.png`, `.webp`, `.gif`.
 
 <div class="projects">
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
@@ -23,10 +19,8 @@ Supported formats: `.jpg`, `.jpeg`, `.png`, `.webp`, `.gif`.
               src="{{ photo.path | relative_url }}"
               class="card-img-top"
               alt="{{ photo.basename | replace: '-', ' ' | replace: '_', ' ' }}"
+              loading="lazy"
             >
-            <div class="card-body">
-              <p class="card-text">{{ photo.basename | replace: "-", " " | replace: "_", " " }}</p>
-            </div>
           </div>
         </div>
       {% endif %}
