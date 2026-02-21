@@ -1,0 +1,105 @@
+cv:
+  name: Ziming Dong
+  label: M.Sc. Student in Computer Science
+  email: dzm1098@uvic.ca
+  phone: "250-588-9509"
+  location: Victoria, BC
+  image: ""
+  summary: Graduate student at the University of Victoria working on large language models on edge devices, with hands-on research and teaching experience in machine learning and computer networks.
+
+  address:
+    city: Victoria
+    region: BC
+    countryCode: CA
+
+  sections:
+    Education:
+      - institution: University of Victoria
+        location: Victoria, BC
+        area: Computer Science
+        studyType: Master of Science
+        start_date: 2025-09
+        end_date:
+        highlights:
+          - "Expected graduation: Aug 2027"
+          - "Research area: Large language models on edge devices"
+
+      - institution: University of Victoria
+        location: Victoria, BC
+        area: Computer Science
+        studyType: Bachelor of Science (With Distinction)
+        start_date: 2021-09
+        end_date: 2025-04
+        highlights:
+          - "GPA: 7.78/9"
+          - "Relevant coursework: Computer Communications and Networks, Algorithms and Data Structures, Software Development Methods, Human Computer Interaction, System Analysis, Numerical Analysis, Operating Systems, Data Mining"
+
+    Experience:
+      - company: UVic Department of Computer Science
+        position: "Teaching Assistant (CSC361: Computer Communications and Networks)"
+        location: Victoria, BC
+        start_date: 2025-09
+        end_date:
+        highlights:
+          - "Provided technical support for PicoNet and collaborated with the professor and UVic Systems team to resolve lab service issues"
+          - "Updated legacy lab materials for compatibility with new UVic JupyterHub infrastructure and supported end-to-end testing"
+          - "Led three lab sections (about 25 students each) with weekly guidance on networking concepts and experiments"
+
+      - company: UVic Department of Computer Science
+        position: "Research Assistant (arXiv:2601.22132)"
+        location: Victoria, BC
+        start_date: 2025-01
+        end_date:
+        highlights:
+          - "Developed the LLM Shepherding framework, achieving 42-94% cost reduction via partial LLM assistance on reasoning and code generation benchmarks"
+          - "Implemented a two-stage DeBERTa-v3-large prediction model and evaluated on GSM8K, CNK12, HumanEval, and MBPP"
+          - "Demonstrated 2.8x cost reduction over a state-of-the-art baseline"
+
+      - company: UVic Faculty of Humanities
+        position: Photographer
+        location: Victoria, BC
+        start_date: 2024-09
+        end_date: 2025-05
+        highlights:
+          - "Delivered high-quality photos and videos on time with strong attention to detail"
+          - "Worked with team members, stakeholders, and sponsors to meet project goals"
+
+      - company: Vancouver Public Education Alliance
+        position: Student Counselor
+        location: Victoria, BC
+        start_date: 2021-09
+        end_date: 2022-06
+        highlights:
+          - "Coordinated communication for 10+ international high school students, schools, School District 61, and parents"
+          - "Managed individualized education plans including course registration and university application support"
+
+    Volunteer:
+      - company: UVic Global Community
+        position: Student Mentor
+        location: Victoria, BC
+        start_date: 2023-09
+        end_date: 2023-12
+        highlights:
+          - "Supported students from diverse backgrounds in academic and personal adjustment"
+          - "Organized activities to strengthen intercultural connection and understanding"
+
+    Skills:
+      - name: Programming
+        level: Advanced
+        icon: fa-solid fa-code
+        keywords: "Python, C, Rust, Java, AVR Assembler"
+
+      - name: Frameworks and Libraries
+        level: Advanced
+        icon: fa-solid fa-cubes
+        keywords: "PyTorch, PostgreSQL, NumPy, Scikit-learn, Pandas"
+
+      - name: Operating Systems
+        level: Advanced
+        icon: fa-solid fa-desktop
+        keywords: "Windows, macOS, Linux"
+
+      - name: Productivity and Tools
+        level: Advanced
+        icon: fa-solid fa-toolbox
+        keywords: "Microsoft Office 365, SharePoint, Git, Docker, Mercurial, Maven"
