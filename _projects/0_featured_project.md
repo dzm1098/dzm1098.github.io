@@ -12,7 +12,9 @@ This project studies how to reduce inference cost while keeping high task accura
 Paper: [Pay for Hints, Not Answers: LLM Shepherding for Cost-Efficient Inference (arXiv:2601.22132)](https://arxiv.org/abs/2601.22132)
 
 ### Summary
-Instead of asking an LLM for a full answer every time, the framework requests only a short prefix hint and lets an SLM complete the task. This creates a fine-grained cost/quality tradeoff that is more flexible than standard routing or cascading.
+Instead of asking an LLM for a full answer every time, the framework requests only a short prefix hint and lets an SLM complete the task.
+
+This creates a fine-grained cost/quality tradeoff that is more flexible than standard routing or cascading.
 
 ### Key Results
 - Hint lengths of around 10-30% of full LLM output can significantly improve SLM performance on math and coding tasks.
