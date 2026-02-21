@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: research
 permalink: /projects/
 description: Selected research and engineering projects.
 nav: true
 nav_order: 1
-display_categories: [featured]
+display_categories: [research]
 horizontal: false
 ---
 

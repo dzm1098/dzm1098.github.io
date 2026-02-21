@@ -4,7 +4,7 @@ title: LLM Shepherding for Cost-Efficient Inference
 description: Research project on token-budgeted SLM-LLM collaboration.
 img: assets/img/9.jpg
 importance: 1
-category: featured
+category: research
 ---
 
 This project studies how to reduce inference cost while keeping high task accuracy by combining small and large language models.
