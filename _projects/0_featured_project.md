@@ -2,7 +2,7 @@
 layout: page
 title: LLM Shepherding for Cost-Efficient Inference
 description: Research project on token-budgeted SLM-LLM collaboration.
-img: assets/img/9.jpg
+img: assets/img/reactive_shepherding.png
 importance: 1
 category: research
 ---
