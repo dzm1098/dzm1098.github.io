@@ -2,6 +2,7 @@
 layout: none
 permalink: /projects/
 ---
+
 <!doctype html>
 <html lang="en">
   <head>

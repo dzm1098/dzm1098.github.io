@@ -2,6 +2,7 @@
 layout: none
 permalink: /projects/0_featured_project/
 ---
+
 <!doctype html>
 <html lang="en">
   <head>
