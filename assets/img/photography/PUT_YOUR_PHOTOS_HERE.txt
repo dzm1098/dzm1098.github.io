@@ -1,0 +1,8 @@
+Upload your photography images to this folder.
+
+Supported formats used by the gallery page:
+- .jpg
+- .jpeg
+- .png
+- .webp
+- .gif
