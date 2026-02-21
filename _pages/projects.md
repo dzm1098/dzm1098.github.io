@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: 你做过的项目集合。
+description: Selected research and engineering projects.
 nav: true
 nav_order: 1
 display_categories: [featured]
