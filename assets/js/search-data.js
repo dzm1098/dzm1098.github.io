@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "你做过的项目集合。",
+          description: "Selected research and engineering projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -380,9 +380,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-my-first-project",
-          title: 'My First Project',
-          description: "在这里简要介绍你的第一个重点项目。",
+          section: "News",},{id: "projects-llm-shepherding-for-cost-efficient-inference",
+          title: 'LLM Shepherding for Cost-Efficient Inference',
+          description: "Research project on token-budgeted SLM-LLM collaboration.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/0_featured_project/";
             },},{id: "projects-project-1",
