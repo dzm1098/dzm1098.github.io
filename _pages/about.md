@@ -32,4 +32,8 @@ I am an M.Sc. student in Computer Science at the University of Victoria (expecte
 
 Previously, I completed my B.Sc. in Computer Science at UVic (with Distinction), and have experience as a TA for CSC361 and as an RA on efficient LLM frameworks.
 
-This website contains my CV, selected research, and ongoing work.
+I also have experience as a photographer, working with the UVic Faculty of Humanities, the UVic International Student Centre, Broad View United, the Rainhouse Engineering Showcase, and the Victoria Cycling League.
+
+Outside research and photography, I enjoy cycling and running.
+
+This website contains my CV, selected research, photography work, and ongoing updates.
