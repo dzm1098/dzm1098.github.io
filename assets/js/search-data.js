@@ -369,16 +369,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-graduated-from-the-university-of-victoria-with-a-b-sc-in-computer-science-with-distinction",
+          title: 'Graduated from the University of Victoria with a B.Sc. in Computer Science (With...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-started-the-m-sc-in-computer-science-at-uvic-supervised-by-jaya-prakash-champati",
+          title: 'Started the M.Sc. in Computer Science at UVic, supervised by Jaya Prakash Champati....',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-published-my-first-preprint-pay-for-hints-not-answers-llm-shepherding-for-cost-efficient-inference-arxiv-2601-22132",
+          title: 'Published my first preprint: Pay for Hints, Not Answers: LLM Shepherding for Cost-Efficient...',
           description: "",
           section: "News",},{id: "projects-llm-shepherding-for-cost-efficient-inference",
           title: 'LLM Shepherding for Cost-Efficient Inference',
