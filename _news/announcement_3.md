@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2026-01-29 10:00:00-0800
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Published my first preprint:
+[Pay for Hints, Not Answers: LLM Shepherding for Cost-Efficient Inference](https://arxiv.org/abs/2601.22132) (arXiv:2601.22132).
