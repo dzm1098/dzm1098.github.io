@@ -19,7 +19,7 @@ nav_order: 2
       {% if is_generated_webp == false %}
         {% if ext == ".jpg" or ext == ".jpeg" or ext == ".png" or ext == ".webp" or ext == ".gif" %}
           <div class="col">
-            <div class="card h-100 hoverable">
+            <div class="card hoverable">
               <img
                 src="{{ photo.path | relative_url }}"
                 class="card-img-top"
