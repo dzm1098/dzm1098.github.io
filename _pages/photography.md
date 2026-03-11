@@ -12,17 +12,23 @@ nav_order: 2
     {% assign photo_files = site.static_files | where_exp: "file", "file.path contains '/assets/img/photography/'" | sort: "path" %}
     {% for photo in photo_files %}
       {% assign ext = photo.extname | downcase %}
-      {% if ext == ".jpg" or ext == ".jpeg" or ext == ".png" or ext == ".webp" or ext == ".gif" %}
-        <div class="col">
-          <div class="card h-100 hoverable">
-            <img
-              src="{{ photo.path | relative_url }}"
-              class="card-img-top"
-              alt="{{ photo.basename | replace: '-', ' ' | replace: '_', ' ' }}"
-              loading="lazy"
-            >
+      {% assign is_generated_webp = false %}
+      {% if photo.name contains "-480.webp" or photo.name contains "-800.webp" or photo.name contains "-1400.webp" %}
+        {% assign is_generated_webp = true %}
+      {% endif %}
+      {% if is_generated_webp == false %}
+        {% if ext == ".jpg" or ext == ".jpeg" or ext == ".png" or ext == ".webp" or ext == ".gif" %}
+          <div class="col">
+            <div class="card h-100 hoverable">
+              <img
+                src="{{ photo.path | relative_url }}"
+                class="card-img-top"
+                alt="{{ photo.basename | replace: '-', ' ' | replace: '_', ' ' }}"
+                loading="lazy"
+              >
+            </div>
           </div>
-        </div>
+        {% endif %}
       {% endif %}
     {% endfor %}
   </div>
